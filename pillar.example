@@ -18,6 +18,6 @@ powerdns:
     gmysql-dnssec: 'yes'
 
   recursor:
-    forward-zones=example.org=10.123.123.123
+    forward-zones: "example.org=10.123.123.123"
 
 
